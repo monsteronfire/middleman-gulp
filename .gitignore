@@ -8,7 +8,8 @@
 /.bundle
 
 # Ignore the build directory
-/build
+/build/*
+build/*
 
 # Ignore cache
 /.sass-cache
@@ -36,3 +37,9 @@ npm-debug.log
 
 # Build
 /.tmp/*
+
+# Firebase config
+.firebaserc
+database.rules.json
+firebase.json
+/source/javascripts/firebase.js
