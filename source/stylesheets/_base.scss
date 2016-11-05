@@ -11,3 +11,7 @@ h1 {
   font-weight: 400;
   margin: 0;
 }
+
+@mixin box-shadow($hlength, $vlength, $blur, $spread, $scolor) {
+  box-shadow: $hlength $vlength $blur $spread $scolor;
+}

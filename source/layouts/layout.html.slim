@@ -12,6 +12,7 @@ html
     == javascript_include_tag  "all"
 
   body class="#{page_classes}"
-    == partial 'layouts/header'
-    == yield
-    == partial 'layouts/footer'
+    div.main.container-fluid
+      == partial 'layouts/header'
+      == yield
+      == partial 'layouts/footer'

@@ -1,3 +1,19 @@
-.navbar-brand .logo {
+.navbar {
+  height: 80px;
+  border: 1px solid transparent;
+  border-bottom: 1px solid #EEEEEE;
+}
+
+.navbar-brand {
   height: 100%;
+
+  .logo {
+    height: 100%;
+    margin-right: 20px;
+  }
+
+  .logo,
+  .navbar-brand-name {
+    display: inline-block;
+  }
 }
