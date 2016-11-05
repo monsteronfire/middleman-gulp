@@ -2,6 +2,10 @@
 # Page options, layouts, aliases and proxies
 ###
 
+require 'slim'
+set :slim, {:ugly => true, :format => :html}
+set :markdown_engine, 'slim'
+
 # Per-page layout changes:
 #
 # With no layout
