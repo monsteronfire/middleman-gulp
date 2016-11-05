@@ -48,7 +48,7 @@
       "htmlmin": {
         "collapseWhitespace": true
       },
-      "extensions": ["html", "json", "erb", "haml", "slim"],
+      "extensions": ["html", "json", "slim"],
       "excludeFolders": ["images", "javascripts", "stylesheets"]
     },
 
