@@ -2,10 +2,11 @@
 title: Welcome to Circleapp
 ---
 
-div.content-wrapper
-  div.homepage-column
-    h1 Simple, Beautiful, Generic
-    h4 This app doesn't really do anything. Coming soon to iOS and Android.
+.content-wrapper
+  .homepage-column
+    .intro
+      h1 Simple, Beautiful, Generic
+      h4 This app doesn't really do anything. Coming soon to iOS and Android.
     == partial 'layouts/signup'
-  div.homepage-column.product-column
+  .homepage-column.product-column
     == image_tag "product-mock.png", class: "img-product"
